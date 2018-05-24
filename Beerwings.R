@@ -13,3 +13,5 @@ Wings <- Wings[-1]
 Beer <- Beer[-28] 
 Wings <- Wings[-28]
 reg<-lm(Wings~Beer)
+plot(Beer,Wings)
+abline(reg)
